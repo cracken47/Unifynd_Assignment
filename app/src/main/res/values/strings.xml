@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Unifynd</string>
+    <item name="reservedNamedId" type="id"/>
+</resources>

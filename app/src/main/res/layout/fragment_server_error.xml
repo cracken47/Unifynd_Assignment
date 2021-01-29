@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="312dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="111dp"
+            android:layout_marginEnd="65dp"
+            android:background="@drawable/server_error" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:text="Connection to Server error."
+            android:textColor="#606060"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/cta_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/purple_round_shape"
+            android:text="Go Home"
+            android:textAllCaps="false"
+            android:textColor="#5e4491" />
+    </LinearLayout>
+</ScrollView>

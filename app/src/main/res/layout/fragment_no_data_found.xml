@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/no_data_found_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="312dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="75dp"
+            android:background="@drawable/no_data_found" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="No data found."
+            android:textColor="#606060"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/cta_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/purple_round_shape"
+            android:text="Refresh"
+            android:textAllCaps="false"
+            android:textColor="#5e4491" />
+
+    </LinearLayout>
+</ScrollView>
